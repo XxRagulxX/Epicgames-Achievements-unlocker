@@ -73,8 +73,8 @@ def unlock_trophies(deployment_id, json_file, auth_token):
         print(f"An error occurred: {e}")
 
 # Example usage
+deployment_id = "" # Replace with your deployment ID
 sandbox_id = ""  # Replace with your sandbox ID
-deployment_id = "c4763f236d08423eb47b4c3008779c84" # Replace with your deployment ID
 json_file = "trophies.json"  # Replace with the path to your JSON file
 auth_token = ""  # Replace with your valid Bearer token
 
